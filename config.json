@@ -1,0 +1,127 @@
+{
+  "self": {
+    "type": {
+      "id": "072008000000",
+      "name": "hl_handler",
+      "icon": ""
+    },
+    "module": "./lib/handler/me-hl_handler",
+    "uuid": "dadd61db-6fd0-47da-b754-5ec1f8643022",
+    "token": "e51edf323469085298455713201ef18220dd3dad",
+    "zkPath": "/system/services/hl_handler/cluster/dadd61db-6fd0-47da-b754-5ec1f8643022"
+  },
+  "zookeeper": {
+    "host": "115.28.241.149",
+    "port": 2181
+  },
+  "meshblu_server": {
+    "db_url": "mongodb://root:wzh83573100@115.28.241.149:37017/mhome",
+    "host": "115.28.241.149",
+    "port": 6565,
+    "message_timeout": 30
+  },
+  "nodered_server": {
+    "host": "115.28.241.149",
+    "port": 1880,
+    "user": "admin",
+    "password": "123456"
+  },
+  "services": {
+    "session": [
+      {
+        "uuid": "5ecea5f8-91ac-4e59-be87-45ff54956353",
+        "online": "true"
+      }
+    ],
+    "device_manager": [
+      {
+        "uuid": "8d3a201c-5b1f-41fc-bb05-dce4057c5c3f",
+        "online": "true"
+      }
+    ],
+    "event_source": [
+      {
+        "uuid": "6cea3174-060d-448d-8f38-f9ef3ba32c80",
+        "online": "true"
+      }
+    ],
+    "monitor": [
+      {
+        "uuid": "fd31deb7-bc91-40e2-b9e4-1d4e14952268",
+        "online": "true"
+      }
+    ],
+    "app_api": [
+      {
+        "uuid": "e14432a4-0718-45d9-81d5-b327d4f24252",
+        "online": "true"
+      }
+    ],
+    "collector": [
+      {
+        "uuid": "1c2f3a6e-3d2e-4b11-a9af-cafd4054c881",
+        "online": "true"
+      }
+    ],
+    "scene": [
+      {
+        "uuid": "59725917-df57-420b-9d6c-7a8883006378",
+        "online": "true"
+      }
+    ],
+    "notification": [
+      {
+        "uuid": "eb54d9c6-c6c3-4194-8f1f-8d7749f3f689",
+        "online": "true"
+      }
+    ],
+    "timer": [
+      {
+        "uuid": "8757587e-4512-4d09-9e88-cdbdc2ffb265",
+        "online": "true"
+      }
+    ],
+    "analyzer": [
+      {
+        "uuid": "1b3e1068-da8c-449b-b818-56c86b2d464f",
+        "online": "true"
+      }
+    ],
+    "executor": [
+      {
+        "uuid": "8f8af2d6-4200-461a-9469-8aa95518a0aa",
+        "online": "true"
+      }
+    ],
+    "event_center": [
+      {
+        "uuid": "fefea240-e3df-44d6-9ea8-2a2a84cf99d6",
+        "online": "true"
+      }
+    ],
+    "sms": [
+      {
+        "uuid": "29492e8c-d4de-46f0-bd13-1eb8cefc9a4a",
+        "online": "true"
+      }
+    ],
+    "authentication_center": [
+      {
+        "uuid": "be408f5a-e542-4166-98ba-bc7f7752a698",
+        "online": "true"
+      }
+    ],
+    "flow_manager": [
+      {
+        "uuid": "ce81db39-b3fe-458a-ac98-99eba6b908a5",
+        "online": "true"
+      }
+    ],
+    "hl_handler": [
+      {
+        "uuid": "dadd61db-6fd0-47da-b754-5ec1f8643022",
+        "online": "true"
+      }
+    ]
+  }
+}
